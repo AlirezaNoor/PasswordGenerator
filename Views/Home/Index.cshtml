@@ -1,0 +1,29 @@
+﻿@model PassgenratorDto
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <form method="post">
+       <div> <label>Generator </label></div>
+        <input id="clear" type="text" asp-for="passwordLenght"/>
+          <a onclick="disply()">x</a>
+        <input  type="submit" placeholder="Generic"/>
+
+    </form>
+      
+
+<h1>Password Generator</h1>
+@if (ViewBag.generate!=null)
+{
+    <p>@ViewBag.generate</p>
+}
+</div>
+
+<script>
+ 
+function  disply(){
+  document.getElementById("clear").value=" ";
+    }
+    
+</script>

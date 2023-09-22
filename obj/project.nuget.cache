@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "R2km/c/RP/d5BWVS4/VecBbFSTbjhyvXagSpY9ejnveR8EwQ0NUqkEQKz5GI4B6tyu8QCqn3vdooMbXj2C9CtQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Administrator\\Desktop\\example\\passwordgenrate\\passwordgenrate\\passwordgenrate.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\nanoid\\3.0.0\\nanoid.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
